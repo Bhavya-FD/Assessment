@@ -1,0 +1,153 @@
+@media (max-width: 992px) {
+    /* header starts here */
+        nav{
+        padding: 20px 0px;
+        justify-content: center;
+        gap: 50px;
+        overflow-x: hidden;
+    }
+    .edu{
+        font-size: 28px;
+    }
+    nav ul{
+        gap: 25px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    /* header ends here */
+    
+    /* section-1 starts here */
+    .wrapper2{
+        padding:150px 0px 50px 75px;
+    }
+    .meetings{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .category{
+        height: 250px;
+        padding: 10px;
+        font-size: 13px;
+    }
+    .all{
+        font-size: 10px;
+    }
+    .category li{
+        padding: 4px;
+    }
+    .lecture{
+        gap: 10px;
+    }
+    .box{
+        width: 33%;
+    }
+    .white{
+        font-size: 12px;
+        padding: 5px 30px;
+        margin-top: 100px;
+    }
+    .white h5{
+        padding-bottom: 8px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    /* section-1 ends here */
+
+    /* section-2 starts here */    
+    .wrapper3{
+        padding:50px 0;
+        gap: 40px;
+    }
+    .bachelor{
+        margin: 40px 0;
+        width: 33%;
+        font-size: 15px;
+    }
+    .bachelor button{
+        font-size: 14px;
+    }
+    div[class*=apply]{
+        padding: 17px ;
+    }
+    .template{
+        width: 38%;
+        padding: 30px;
+        font-size: 14px;
+        margin: 67px 0 50px 0;
+    }
+    .template h4{
+        font-size: 18px;
+        padding:8px 0px;
+    }
+    .template p{
+        padding: 5px 15px ;
+    }
+    /* section-2 ends here */
+
+    /* section-3 starts here */
+    .wrapper4 h4{
+        padding: 20px;
+    }
+    .card_flex{
+        margin: 80px 25px;
+    }
+    div[class*=card] h3{
+        padding: 10px;
+        font-size: 17px;
+    }
+    div[class*=card]{
+        width: 95%;
+    }
+    /* section-3 ends here */
+
+    /* section-4 starts here */
+    .wrapper5{
+        padding:70px;
+    }
+    .wrapper5 h2{
+        font-size: 28px;
+        padding:20px 0px;
+    }
+    div[class*=about]{
+        gap: 15px;
+        width: 20%;
+    }
+    div[class*=fact]{
+        padding: 20px 0;
+        font-size: 20px;
+    }
+    .color{
+        padding: 150px;
+    }
+    /* section-4 ends here */
+
+    /* footer starts here */
+    .wrapper6{
+        padding:80px 50px;
+        gap: 30px;
+    }
+    /* whitebox in footer */
+    .whitebox{
+        padding: 20px;
+    }
+    .input input{
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    textarea{
+        width: 99%;
+        padding: 7px;
+        margin-top: 12px;
+    }
+    .message{
+        font-size: 11px;
+    }
+    /* redbox in footer */
+    .redbox{
+        padding: 12px;
+        font-size: 15px;
+    }
+    .redbox h4,h5{
+        padding-top: 5px;
+    }
+    }

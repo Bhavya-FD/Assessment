@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* header starts here */
+/* background image in header is here */
+header{
+    width: 100%;
+    background: url(../Assessment_HTML5/Images/online-communication.jpg)no-repeat center center/cover;
+}
+.container1{
+    background: #6e6e6ea5;
+    width: 100%;
+    color: #fcfcfc;
+    padding-bottom:70px ;
+    position: relative;
+}
+/* navbar starts here */
+nav{
+    background: #dbdadae3;
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-around;
+}
+.edu{
+    font-size: 32px;
+    font-weight: 600;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+nav li:hover{
+    color: #02029b;
+}
+/* navbar ends here */
+.para{
+    margin:70px 100px 100px;
+    width: 42%;
+}
+.para h4{
+    padding-top: 50px;
+}
+/* button in the header */
+.button-1 {
+  background-color: #c20a10;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  margin-top:20px ;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.button-1:hover,.button-1:focus { 
+  background-color: #a3080d;
+}
+.button-1:active {
+  background: #7c0509;
+}
+/* flexbox here */
+.best_flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    position: absolute;
+    bottom: -100px;
+}
+div[class*=flexbox]{
+    width: 25%;
+    background: #c20a10;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+div[class*=flexbox] i{
+    font-size: 36px;
+    color: #dda306;
+    border: 1px solid #dda306 ;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+div[class*=flexbox] p{
+    padding: 10px;
+}
+/* header ends here */
+
+/* section-1 starts here */
+.container2{
+    background: url(../Assessment_HTML5/Images/istockphoto.jpg)no-repeat center center/cover;
+}
+.wrapper2{
+    background: #000000e3;
+    padding:160px 30px 50px 30px;
+    width: 100%;
+}
+.wrapper2 h4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
+.meetings{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+.category{
+    background: #ffffff;
+    width: 40%;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.all{
+    font-size: 13px;
+}
+.category ul{
+    list-style-type: none;
+}
+.category li{
+    padding: 8px;
+}
+.lecture{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 35%;
+    border-radius: 10px;
+}
+.new{
+    background: url(../Assessment_HTML5/Images/new.jpg) no-repeat center center/100% 100%;
+}
+.online{
+    background: url(../Assessment_HTML5/Images/online_Leacture.jpg) no-repeat center center/100% 100%;
+}
+.higher{
+    background: url(../Assessment_HTML5/Images/higher2.jpg) no-repeat center center/cover;
+}
+.training{
+    background: url(../Assessment_HTML5/Images/training.jpg) no-repeat center center/100% 100%;
+}
+.white{
+    background: #ffffff;
+    text-align: center;
+    padding: 20px 30px;
+    margin-top: 120px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.white h5{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+/* section-1 ends here */
+
+/* section-2 starts here */
+.container3{
+    background: url(../Assessment_HTML5/Images/classroom.png)no-repeat center center/cover;
+}
+.wrapper3{
+    background: #6e6e6ea5;
+    padding:80px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.bachelor{
+    margin: 50px 0;
+    width: 35%;
+}
+div[class*=apply]{
+    background-color: #717070bc;
+    color: #ffffff;
+    margin-top: 30px ;
+    padding: 20px ;
+}
+div[class*=apply] h3{
+    padding: 8px 0;
+}
+.yellow{
+    background: #c7c702;
+}
+.template{
+    width: 40%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 75px 0 50px 0;
+    padding: 35px;
+    font-size: 16px;
+}
+.template h4{
+    color: #dda306;
+    font-size: 20px;
+    padding:10px 0px;
+}
+.template p{
+    padding: 10px 15px ;
+}
+.template h5{
+    font-size: 18px;
+}
+/* section-2 ends here */
+
+/* section-3 starts here */
+.container4{
+    background: url(../Assessment_HTML5/Images/istockphoto.jpg)no-repeat center center/cover;
+}
+.wrapper4{
+    background: #000000e3;
+    padding:50px;
+    width: 100%;
+    color: #ffffff;
+}
+.wrapper4 h4{
+    font-size: 20px;
+    padding: 30px;
+}
+.wrapper4 hr{
+    width: 95%;
+}
+.img1{
+    background: url(../Assessment_HTML5/Images/book_writing.jpg) no-repeat center center/cover;
+    padding: 70px;
+}
+.img2{
+    background: url(../Assessment_HTML5/Images/book_stack.jpg) no-repeat center center/cover;
+    padding: 70px;
+}
+.img3{
+    background: url(../Assessment_HTML5/Images/glasses-book.jpg) no-repeat center center/cover;
+    padding:70px;
+}
+.img4{
+    background: url(../Assessment_HTML5/Images/books.jpg) no-repeat center center/cover;
+    padding: 70px;
+}
+.card_flex{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin: 100px 65px;
+}
+div[class*=card]{
+    width: 90%;
+}
+div[class*=card] h3{
+    background: #fcfcfc;
+    padding: 30px 10px;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+}
+
+/* section-3 ends here */
+
+/* section-4 starts here */
+.container5{
+    background: url(../Assessment_HTML5/Images/backgruond_girl.jpg)no-repeat center center/cover;
+}
+.wrapper5{
+    background: #6c6b6bcb;
+    padding:100px;
+    width: 100%;
+    color: #ffffff;
+}
+.wrapper5 h2{
+    font-size: 35px;
+    padding:30px 0px;
+}
+.fews{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px ;
+}
+div[class*=about]{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 22%;
+}
+.about2{
+    margin-top:50px ;
+}
+div[class*=fact]{
+    background-color: #494848ab;
+    color: #ffffff;
+    width: 100%;
+    padding: 25px 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+div[class*=fact] h3{
+    color: #dda306;
+    padding: 10px;
+}
+.girl_study{
+    background:url(../Assessment_HTML5/Images/girl_study1.jpg) no-repeat center center/cover ;
+    width: 40%;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.color{
+    background: #ce9b0d7c;
+    padding: 170px;
+    border-radius: 20px;
+}
+/* section-4 ends here */
+
+/* footer starts here */
+.container6{
+    background: url(../Assessment_HTML5/Images/istockphoto.jpg)no-repeat center center/cover;
+}
+.wrapper6{
+    background: #000000e5;
+    padding:100px 50px;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+/* whitebox in footer */
+.whitebox{
+    color: #353434;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+}
+.whitebox hr{
+    width: 97%;
+    margin-top: 3px;
+    margin-left: 0;
+}
+.input input{
+    background: #dfdede85;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 17px;
+}
+textarea{
+    background: #dfdede85;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 17px;
+    width: 97%;
+}
+.message{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+/* redbox in footer */
+.redbox{
+    width: 22%;
+    background: #800202;
+    border-radius: 15px;
+    text-align: left;
+    padding:10px 20px;
+}
+.redbox h4,h5{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.redbox hr{
+    width: 100%;
+    border-top: 1px solid #cdcdcc7c;
+    border-bottom: 1px solid #cdcdcc7c;
+}
+/* footer ends here */

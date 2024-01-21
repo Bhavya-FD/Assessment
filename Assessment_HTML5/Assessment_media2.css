@@ -1,0 +1,139 @@
+@media (max-width: 768px) {
+    /* header starts here */
+    nav{
+        padding: 15px 0px;
+        gap: 30px;
+    }
+    .edu{
+        font-size: 20px;
+    }
+    nav ul{
+        font-size: 15px;
+        gap: 20px;
+        margin-top: 0px;
+    }
+    .para{
+        margin:50px 60px 70px;
+        width: 47%;
+    }
+    div[class*=flexbox]{
+        padding: 5px;
+    }
+    /* header ends here */
+    
+    /* section-1 starts here */
+    .wrapper2{
+        padding:140px 0px 50px 75px;
+    }
+    .category{
+        width: 45%;
+        padding: 10px;
+    }
+    .white p{
+        display: none;
+    }
+    .white{
+        height: 70px;
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+    /* section-1 ends here */
+
+    /* section-2 starts here */    
+    .wrapper3{
+        padding:50px 0;
+        gap: 40px;
+    }
+    .bachelor{
+        margin: 40px 0;
+        width: 33%;
+        font-size: 15px;
+    }
+    .bachelor button{
+        font-size: 14px;
+    }
+    div[class*=apply]{
+        padding: 17px ;
+    }
+    .template{
+        width: 38%;
+        padding: 30px;
+        font-size: 14px;
+        margin: 67px 0 50px 0;
+    }
+    .template h4{
+        font-size: 18px;
+        padding:8px 0px;
+    }
+    .template p{
+        padding: 5px 15px ;
+    }
+    /* section-2 ends here */
+
+    /* section-3 starts here */
+    .wrapper4 h4{
+        padding: 20px;
+    }
+    .card_flex{
+        margin: 80px 25px;
+    }
+    div[class*=card] h3{
+        padding: 10px;
+        font-size: 17px;
+    }
+    div[class*=card]{
+        width: 95%;
+    }
+    /* section-3 ends here */
+
+    /* section-4 starts here */
+    .wrapper5{
+        padding:70px;
+    }
+    .wrapper5 h2{
+        font-size: 28px;
+        padding:20px 0px;
+    }
+    div[class*=about]{
+        gap: 15px;
+        width: 20%;
+    }
+    div[class*=fact]{
+        padding: 20px 0;
+        font-size: 20px;
+    }
+    .color{
+        padding: 150px;
+    }
+    /* section-4 ends here */
+
+    /* footer starts here */
+    .wrapper6{
+        padding:80px 50px;
+        gap: 30px;
+    }
+    /* whitebox in footer */
+    .whitebox{
+        padding: 20px;
+    }
+    .input input{
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    textarea{
+        width: 99%;
+        padding: 7px;
+        margin-top: 12px;
+    }
+    .message{
+        font-size: 11px;
+    }
+    /* redbox in footer */
+    .redbox{
+        padding: 12px;
+        font-size: 15px;
+    }
+    .redbox h4,h5{
+        padding-top: 5px;
+    }
+    }
