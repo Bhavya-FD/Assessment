@@ -1,6 +1,14 @@
+/* CSS Media Query for 1200px */
+@media (max-width: 1200px) {
+    .white{
+        height: 125px;
+    }
+}
+
+/* CSS Media Query for 992px */
 @media (max-width: 992px) {
     /* header starts here */
-        nav{
+    nav{
         padding: 20px 0px;
         justify-content: center;
         gap: 50px;
@@ -150,4 +158,6 @@
     .redbox h4,h5{
         padding-top: 5px;
     }
+    /* footer ends here */
+
     }

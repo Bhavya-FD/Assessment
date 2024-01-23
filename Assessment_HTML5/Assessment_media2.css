@@ -113,27 +113,24 @@
     }
     /* whitebox in footer */
     .whitebox{
-        padding: 18px;
+        width: 70%;
+        height: 260px;
         font-size: 15px;
     }
-    .input input{
-        margin-right: 10px;
-        margin-top: 15px;
+    #subject{
+        display: none;
     }
     textarea{
-        width: 99%;
-        padding: 4px;
-        margin-top: 12px;
-    }
-    .message{
-        font-size: 11px;
+        height: 80px;
     }
     /* redbox in footer */
     .redbox{
-        padding: 12px;
-        font-size: 15px;
+        width: 30%;
+        padding: 10px;
     }
     .redbox h4,h5{
-        padding-top: 5px;
+        padding-top: 3px;
     }
+    /* footer ends here */
+
     }

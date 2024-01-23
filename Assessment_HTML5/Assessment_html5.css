@@ -36,8 +36,31 @@ nav ul{
     margin-top: 10px;
     cursor: pointer;
 }
-nav li:hover{
+nav li a,#list-2 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#list-2{
+    background: #dbdadae3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    list-style-type: none;
+    width: 30%;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 25px;
+    position: absolute;
+    top: 52px;
+    right: 20px;
+    display: none;
+}
+nav li a:hover,#list-2 a:hover{
     color: #02029b;
+}
+#bars{
+    display: none;
 }
 /* navbar ends here */
 .para{
